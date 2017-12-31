@@ -1,6 +1,7 @@
 {
     "name": "kielpack/laralibs",
     "type": "library",
+    "description": "Laravel Package",
     "version": "0.0.1",
     "require": {
         "php": "^7.1"
@@ -12,10 +13,10 @@
             "email": "arnold.mercado@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "KielPack\\LaraLibs\\": "laralibs/src/"
+            "KielPack\\LaraLibs\\": "src/"
         }
     },
     "repositories": [

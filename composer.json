@@ -22,6 +22,12 @@
             "KielPack\\LaraLibs\\": "packages/kielpack/laralibs/src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lyndonkieljerymiah/kielpack-laralib"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [

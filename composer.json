@@ -12,7 +12,7 @@
             "email": "arnold.mercado@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable" : true,
     "autoload": {
         "classmap": [

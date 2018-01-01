@@ -1,6 +1,6 @@
 <?php
 
-namespace KielPack\LaraLibs\Helpers;
+namespace LaraLibs\Helpers;
 
 
 use Illuminate\Support\Facades\DB;

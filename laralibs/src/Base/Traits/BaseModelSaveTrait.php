@@ -1,6 +1,6 @@
 <?php
 
-namespace KielPack\LaraLibs\Base\Traits;
+namespace LaraLibs\Base\Traits;
 
 
 use Illuminate\Support\Facades\Auth;

@@ -1,11 +1,11 @@
 <?php 
 
 
-namespace KielPack\LaraLibs\Base;
+namespace LaraLibs\Base;
 
 use Illuminate\Database\Eloquent\Model;
-use KielPack\LaraLibs\Base\Traits\StatusTrait;
-use KielPack\LaraLibs\Base\Traits\BaseModelSaveTrait;
+use LaraLibs\Base\Traits\StatusTrait;
+use LaraLibs\Base\Traits\BaseModelSaveTrait;
 
 
 class BaseModel extends Model {

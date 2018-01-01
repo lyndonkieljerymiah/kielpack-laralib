@@ -1,6 +1,6 @@
 <?php
 
-namespace KielPack\LaraLibs\Base\Traits;
+namespace LaraLibs\Base\Traits;
 
 trait StatusTrait {
 

@@ -12,20 +12,22 @@ class SelectionModel extends Model
     protected $fillable = ["code","name","category","sort_order"];
 
     protected $hidden = ["created_at","updated_at"];
+
     //
     public static function getSelections(Array $categories = array()) {
 
         $categories = static::wherein('category',$categories)->orderBy('sort_order')->get();
-
         $lookups = array();
 
         foreach($categories as $key => $value) {
             $lookups[$value['category']][] = $value;
         }
+
         return $lookups;
     }
 
     public static function getValue($category,$key) {
+
         //add value to memoization
         if(!Memoized::isExist($key)) {
             $values = static::where('category',$category)->where('code',$key)->orderBy('category')->get();

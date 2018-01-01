@@ -1,6 +1,6 @@
 <?php
 
-namespace KielPack\LaraLibs\Base;
+namespace LaraLibs\Base;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

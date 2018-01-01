@@ -1,10 +1,9 @@
 <?php
 
 
-namespace App\Services;
+namespace Laralibs\Helpers;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
 
 
 class CalendarService

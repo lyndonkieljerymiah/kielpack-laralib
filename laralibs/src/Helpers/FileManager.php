@@ -1,12 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: arnold.mercado
- * Date: 11/7/2017
- * Time: 4:14 PM
- */
 
-namespace KielPack\LaraLibs\Helpers;
+
+namespace LaraLibs\Helpers;
 
 
 use Illuminate\Support\Facades\Storage;

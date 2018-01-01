@@ -6,12 +6,12 @@
  * Time: 12:14 PM
  */
 
-namespace KielPack\LaraLibs\Base;
+namespace LaraLibs\Base;
 
 
 
-use KielPack\LaraLibs\Base\Traits\RepoQueryTrait;
-use Mockery\Exception;
+use LaraLibs\Base\Traits\RepoQueryTrait;
+
 
 abstract class AbstractRepository
 {

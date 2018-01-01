@@ -16,7 +16,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "KielPack\\LaraLibs\\": "src/"
+            "LaraLibs\\": "src/"
         }
     },
     "repositories": [
@@ -28,13 +28,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KielPack\\Laralibs\\LaraLibProvider"
+                "Laralibs\\LaraLibProvider"
             ],
             "aliases":{
-                "Bundle": "KielPack\\Laralibs\\Supports\\Facades\\Bundle",
-                "EventListenerRegister": "KielPack\\Laralibs\\Supports\\Facades\\EventListenerRegister",
-                "FileManager": "KielPack\\Laralibs\\Supports\\Facades\\FileManager",
-                "Result": "KielPack\\Laralibs\\Supports\\Facades\\Result"
+                "Bundle": "Laralibs\\Supports\\Facades\\Bundle",
+                "EventListenerRegister": "Laralibs\\Supports\\Facades\\EventListenerRegister",
+                "FileManager": "Laralibs\\Supports\\Facades\\FileManager",
+                "Result": "Laralibs\\Supports\\Facades\\Result"
             }
         }
     }

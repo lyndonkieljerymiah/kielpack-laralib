@@ -73,7 +73,7 @@ abstract class BaseRepository implements IRepositories
      *  'payment' => function(&model) {  }
      * ]
      * */
-    public function create(array $data,$children = array())
+    public function create(Array $data,$children = array())
     {
         $this->model = $this->model->create($data);
 
@@ -88,7 +88,7 @@ abstract class BaseRepository implements IRepositories
         return $this->model;
     }
 
-    public function createWithUser(array $data,$children = array())
+    public function createWithUser(Array $data,$children = array())
     {
         $data['user_id'] = Auth::user()->getAuthIdentifier();
 
